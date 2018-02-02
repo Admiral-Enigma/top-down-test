@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Tileset/basic.png" type="Texture" id=1]
 
-[node name="BasicTileset" type="Node2D"]
+[node name="BasicTileset" type="Node2D" index="0"]
 
 [node name="basic0" type="Sprite" parent="." index="0"]
 

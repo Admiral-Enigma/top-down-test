@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/basic.png-8dad6bd940a23b2ae13011ca4761e12b.stex"
+path="res://.import/Bullet.png-24d2823ad422d99fb740639d14c84fde.stex"
 
 [deps]
 
-source_file="res://Tileset/basic.png"
-source_md5="d9830ff57c275378c1db6af1da7f766d"
+source_file="res://Sprite/Bullet.png"
+source_md5="73d5dfb7226caeb9b82459973035b733"
 
-dest_files=[ "res://.import/basic.png-8dad6bd940a23b2ae13011ca4761e12b.stex" ]
-dest_md5="741ff74ac9858ec063b727cdb81a357b"
+dest_files=[ "res://.import/Bullet.png-24d2823ad422d99fb740639d14c84fde.stex" ]
+dest_md5="8378b425bd4dd0f4c1195aff9d4d65d7"
 
 [params]
 
@@ -19,11 +19,11 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=false
+process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false

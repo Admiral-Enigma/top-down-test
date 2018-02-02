@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 14.8799, 16.8271 )
+extents = Vector2( 14.8799, 11.7315 )
 
 [node name="Player" type="KinematicBody2D" index="0"]
 
@@ -22,9 +22,13 @@ MOVEMENT_SPEED = 140
 texture = ExtResource( 2 )
 _sections_unfolded = [ "Transform" ]
 
+[node name="GunOrigin" type="Position2D" parent="PlayerSprite" index="0"]
+
+position = Vector2( -30.0886, 0 )
+
 [node name="Dumb" type="CollisionShape2D" parent="." index="1"]
 
-position = Vector2( -1.04893, 15.8452 )
+position = Vector2( -0.891154, 20.4208 )
 scale = Vector2( 1, 1.03504 )
 shape = SubResource( 1 )
 _sections_unfolded = [ "Transform" ]
@@ -33,8 +37,8 @@ _sections_unfolded = [ "Transform" ]
 
 anchor_mode = 1
 rotating = false
-current = false
-zoom = Vector2( 1, 1 )
+current = true
+zoom = Vector2( 0.5, 0.5 )
 limit_left = -10000000
 limit_top = -10000000
 limit_right = 10000000
@@ -53,5 +57,8 @@ drag_margin_bottom = 0.2
 editor_draw_screen = true
 editor_draw_limits = false
 editor_draw_drag_margin = false
+__meta__ = {
+"_edit_lock_": true
+}
 
 
