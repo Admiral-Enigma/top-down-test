@@ -7,4 +7,4 @@
 # System specific files
 game/export.cfg
 
-!/.import/
+.import/
