@@ -8,14 +8,16 @@
 custom_solver_bias = 0.0
 extents = Vector2( 14.8799, 11.7315 )
 
-[node name="Player" type="KinematicBody2D" index="0"]
+[node name="Player" type="KinematicBody2D" groups=[
+"Player",
+]]
 
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
-MOVEMENT_SPEED = 140
+MOVEMENT_SPEED = 200
 
 [node name="PlayerSprite" type="Sprite" parent="." index="0"]
 

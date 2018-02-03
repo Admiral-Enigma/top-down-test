@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-export var MOVEMENT_SPEED = 140
+export var MOVEMENT_SPEED = 200
 const BULLET_VELOCITY = 1000
 var sprite
 var shoot_time
