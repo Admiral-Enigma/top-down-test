@@ -32,7 +32,6 @@ func _physics_process(delta):
 		bullet.position = $PlayerSprite/GunOrigin.global_position
 		bullet.linear_velocity = Vector2(-sprite.scale.x * BULLET_VELOCITY, 0)
 		bullet.add_collision_exception_with(self)
-		bullet.add_collision_exception_with($PlayerSprite/GunOrigin)
 		get_parent().add_child(bullet)
 		shoot_time = 0
 		
