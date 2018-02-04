@@ -8,7 +8,7 @@
 custom_solver_bias = 0.0
 extents = Vector2( 14.8799, 11.7315 )
 
-[node name="Player" type="KinematicBody2D" groups=[
+[node name="Player" type="KinematicBody2D" index="0" groups=[
 "Player",
 ]]
 
@@ -26,7 +26,7 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="GunOrigin" type="Position2D" parent="PlayerSprite" index="0"]
 
-position = Vector2( -30.0886, 0 )
+position = Vector2( -21.6635, 0 )
 
 [node name="Dumb" type="CollisionShape2D" parent="." index="1"]
 
